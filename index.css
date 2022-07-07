@@ -52,6 +52,7 @@ input:focus {
 }
 
 #Second-Resgister-btn {
+  display: inline-block;
   margin-top: 2rem;
   margin-right: 2rem;
   background-color: #276BFF;
@@ -61,12 +62,12 @@ input:focus {
   padding: 15px 32px;
   text-align: center;
   justify-content: center;
-  display: inline-block;
   font-size: 16px;
   width: 25%;
 }
 
 #Sign-In-btn {
+  display: inline-block;
   margin-top: 2rem;
   background-color: #32CD32; 
   border: none;
@@ -74,27 +75,25 @@ input:focus {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
   width: 25%;
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
   .Sign-Up-Content {
+    display: flex;
     width: fit-content;
-    margin-top: 0;
     flex-direction: column;
+    /* margin-top: 0; */
   }
 
   #check, #Terms-Condition{
     display: inline-block;
+    flex-direction: column;
   }
   #Second-Resgister-btn, #Sign-In-btn , #Terms-Condition{
     flex-direction: column;
     width: fit-content;
   }
-  /* .Sign-Up-Content {
-    flex-direction: column;
-    } */
  }
