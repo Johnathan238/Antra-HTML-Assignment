@@ -85,15 +85,20 @@ input:focus {
     display: flex;
     width: fit-content;
     flex-direction: column;
-    /* margin-top: 0; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
   }
 
   #check, #Terms-Condition{
     display: inline-block;
     flex-direction: column;
+    
   }
   #Second-Resgister-btn, #Sign-In-btn , #Terms-Condition{
     flex-direction: column;
     width: fit-content;
+    margin-right: auto;
   }
  }
